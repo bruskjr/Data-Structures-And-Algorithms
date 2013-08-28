@@ -11,11 +11,11 @@
 var LinkedListNode = function(data){
 	this.data = data;
 	this.next = null;
-}
+};
 
 var LinkedList = function(){
 	this.init();
-}
+};
 
 LinkedList.prototype = {
 	init : function(){
@@ -123,4 +123,4 @@ LinkedList.prototype = {
 
 		return str + "null";
 	}
-}
+};
